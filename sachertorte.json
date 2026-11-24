@@ -1,0 +1,36 @@
+{
+  "name": "Sachertorte",
+  "ruolo": "Torta al cioccolato con le dosi della tua ricetta",
+  "children": [
+    {
+      "name": "Base",
+      "ruolo": "Impasto principale",
+      "children": [
+        { "name": "Cioccolato fondente al 60% (75 g)", "ruolo": "75 g - Base al cioccolato" },
+        { "name": "Tuorli (60 g, circa 3)", "ruolo": "60 g (circa 3) - Base" },
+        { "name": "Albumi (90 g, circa 3)", "ruolo": "90 g (circa 3) - Base" },
+        { "name": "Burro ammorbidito (65 g)", "ruolo": "65 g - Base" },
+        { "name": "Farina 00 (65 g)", "ruolo": "65 g - Base" },
+        { "name": "Zucchero a velo (20 g)", "ruolo": "20 g - Base" },
+        { "name": "Zucchero (90 g)", "ruolo": "90 g - Base" },
+        { "name": "Baccello di vaniglia (1)", "ruolo": "1 - Aroma per la base" },
+        { "name": "Sale fino (1 pizzico)", "ruolo": "1 pizzico - Base" }
+      ]
+    },
+    {
+      "name": "Per la farcitura",
+      "ruolo": "Strato intermedio",
+      "children": [
+        { "name": "Confettura di albicocche (150 g)", "ruolo": "150 g - Farcitura" }
+      ]
+    },
+    {
+      "name": "Per la copertura",
+      "ruolo": "Glassa finale",
+      "children": [
+        { "name": "Cioccolato fondente al 60% (185 g)", "ruolo": "185 g - Copertura" },
+        { "name": "Panna fresca liquida 30-35% grassi (125 g)", "ruolo": "125 g (30-35% grassi) - Copertura" }
+      ]
+    }
+  ]
+}
